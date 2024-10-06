@@ -10,7 +10,7 @@
 5. O jogo acaba quando o jogador marcar 6 pontos no modo fácil ou 12 pontos no modo difícil(em outras palavras: acertar todos os 6/12 pares), ou se ele perder suas tentativas.
 6. Ao final do jogo haverá um ranking, caso o jogador ganhe ele aparecerá no ranking, se não ganhar, o nome dele não entra no ranking.
 7. Haverá, junto com o ranking, uma opção de  jogar novamente ao final do jogo.
-OBS: O ranking é conjunto, ou seja, os jagadores do nível fácil e difícil estão no mesmo ranking.
+- OBS: O ranking é conjunto, ou seja, os jagadores do nível fácil e difícil estão no mesmo ranking.
 # COMO JOGAR
 - Modo fácil: O jogador terá 6 chances para acertar os 6 pares iguais, se acertar todos os pares antes que as 6 tentativas acabem ele ganha.
 - Modo difícil: O jogador terá 12 chances para acertar os 6 pares iguais, se acertar todos os pares antes que as 12 tentativas acabem ele ganha.
