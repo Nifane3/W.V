@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo da Memória</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Strike&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+      <h1 class="tit">JOGO DA MEMÓRIA</h1>
+    </div>
+  </header>
+  <section class="container">
+    <div class="content">
+      <div class="button-container">
+        <button class="btn-easy">Nível Fácil</button>
+        <button class="btn-hard">Nível Difícil</button>
+      </div>      
+    </div>
+    <ul class="cards" style="display: none;">
+      <li class="card fundo2"></li>
+      <li class="card fundo2"></li>
+      <li class="card fundo2"></li>
+      <li class="card fundo2"></li>
+      <li class="card fundo2"></li>
+      <li class="card fundo2"></li>
+      <li class="card fundo2"></li>
+      <li class="card fundo2"></li>
+      <li class="card fundo2"></li>
+      <li class="card fundo2"></li>
+      <li class="card fundo2"></li>
+      <li class="card fundo2"></li>
+      <li class="card fundo2"></li>
+      <li class="card fundo2"></li>
+      <li class="card fundo2"></li>
+      <li class="card fundo2"></li>
+      <li class="card fundo2"></li>
+      <li class="card fundo2"></li>
+      <li class="card fundo2"></li>
+      <li class="card fundo2"></li>
+      <li class="card fundo2"></li>
+      <li class="card fundo2"></li>
+      <li class="card fundo2"></li>
+      <li class="card fundo2"></li>
+    </ul>
+    <div class="points" style="display: none;">
+      <div class="trys">
+        <p><b>Tentativas restantes:</b>
+          <span class="tentativas">12</span> 
+        </p>
+      </div>
+      <div class="trys">
+        <p><b>Pontos marcados:</b>
+          <span class="pontos">0</span> 
+        </p>
+      </div>
+    </div>
+    <div class="ranking" style="display: none;">
+      <h2>Ranking</h2>
+      <pre id="ranking-display"></pre>
+      <button class="btn-restart">Jogar Novamente</button>
+  </div>
+  </section>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
